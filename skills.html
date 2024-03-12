@@ -1,0 +1,257 @@
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <style> 
+           h1{
+               text-align: center;
+               color: whitesmoke;
+               margin-bottom: 1.2em;
+               text-shadow: 1.5px 0.6px;
+               font-size: 40px;
+           }
+        body{
+              background:rgba(0, 10, 16, 0.966);
+         }
+        p { 
+            font-size: 20px; 
+            color:whitesmoke;
+           
+        } 
+         span{
+              color: #0ef;
+         }
+      
+        .container { 
+            background-color: black; 
+            width: 48%; 
+            border-radius: 15px; 
+            
+        } 
+          #para{
+               margin-left: 9.6em;
+               font-size: 25px;
+               letter-spacing: 2px;
+               margin-top: 1.1em;
+               text-shadow: 1px 0.1px whitesmoke;
+          }
+           #para1{
+               float: right;
+               margin-top: -2.3em;
+               font-size: 25px;
+               letter-spacing: 2px;
+               margin-right: 9.6em;
+               text-shadow: 1px 0.1px whitesmoke;
+           }
+      
+        .skill { 
+            background-color: #0ef; 
+            color: black; 
+            padding: 0.2px; 
+            text-align: right; 
+            font-size: 15px; 
+            border-radius: 15px; 
+        } 
+      
+        .html { 
+            width: 90%; 
+        } 
+      
+        .css { 
+            width: 82%; 
+        } 
+         .javascript{
+              width: 68%;
+         }
+          .cplus{
+              width:95%;
+          }
+          .java{
+              width:80%;
+          }
+          .python{
+            width:78%;
+        }
+               .cont{
+                   float: right;
+                   margin-right: 25em;
+                   padding: 10px;
+                   
+              }
+                    .paratwo {
+                      width: 200px;
+                      height:200px;
+                      border-radius: 50%;
+                      border:10px solid #0ef;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      margin:2px;
+                      background: rgba(0, 0, 0, 0.318);
+                     -webkit-text-fill-color: white;
+                }
+                     #comu{
+                       text-align: center;
+                   }
+                     .cont1{
+                          float: right;
+                          margin-right: -30em;
+                          padding: 10px;
+                          
+                     }  
+                         #aw{
+                              float: right;
+                              box-shadow: 2px 2px 2px 2px rgb(148, 156, 171);
+                              margin-top: -70px;
+                          }
+                            button:hover{
+                              background-color:rgba(0, 255, 255, 0.208);
+                              cursor:pointer;
+                            }
+                         
+                       
+                           .paratwo1{
+                            width: 200px;
+                            height:200px;
+                            border-radius: 50%;
+                            border:10px solid #0ef;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-top:2px;
+                            background: rgba(0, 0, 0, 0.318);
+                           -webkit-text-fill-color: white;
+                             margin-right: -5.9em;
+                        }
+                          .heading{
+                              font-size: 20px;
+                          }
+                          h2{
+                               text-align: center;
+                               color: white;
+                        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                         }
+                            @media  screen and (max-width:1030px) {
+                               #para{
+                                  display: none;
+                               }
+                                #para1{
+                                     display: none;
+                                }
+                                 .cont{
+                                     display:none
+                                 }
+                                  .cont1{
+                                      display:none
+                                  }
+                                    .container{
+                                         width:80%;
+                                    }
+                                    .skill{
+                                         padding:2px;
+                                    }
+                                    #aw{
+                                         margin-top: -80px;
+                                    }
+                            }
+                              @media  screen and (max-width:780px){
+                                     .container{
+                                         width:95%;
+                                    }
+                                      .skill{
+                                         padding:5px;
+                                    }
+                                     .heading{
+                                         font-size: 15px;
+                                     }
+                                      p{
+                                          font-size: 30px;
+                                      }
+                                      #aw{
+                                        margin-top: -50px;
+                                        font-size: 25px;
+                                   }
+                         }
+                         @media  screen and (max-width:425px){
+                                    
+                                   h1{
+                                      text-shadow: none;
+                                      font-size: 200px;
+                                    }
+                                  p{
+                                    font-size: 180px;
+                                  }
+                                   .skill{
+                                    padding:15px;
+                                    
+                                   }
+                                     #aw {
+                                         
+                                         margin-top: -20px;
+                                         margin-right:190px ;
+                                         font-size: 20px;
+                                     }
+                                       
+                                       
+                         }
+                         @media  screen and (max-width:375px){
+                            #aw {
+                                         
+                                margin-top: -20px;
+                                margin-right:190px ;
+                                font-size: 20px;
+                            }
+                         }
+                            
+    </style> 
+</head> 
+<body> 
+       <div class="heading">
+          <div class="head">
+        <h1>My <span>Skills</span></h1> 
+           </div>
+      <button onclick="skilltohome()" id="aw">BACK</button>
+       </div>
+      <p id="para">Technical Skills</p>
+      <p id="para1">Professional skills</p>
+        <div class="cont">
+            <p class="paratwo communication">75%</p>
+              <h2 class="id">Communication</h2>
+        </div>
+             <div class="cont1">
+           <p class="paratwo1 communication">88%</p>
+              <h2 class="ido">Problem Solving</h2>
+             </div>
+        
+    <p>HTML</p> 
+    <div class="container"> 
+        <div class="skill html">90%</div> 
+    </div> 
+  
+    <p>CSS</p> 
+    <div class="container"> 
+        <div class="skill css">82%</div> 
+    </div> 
+    <p>JAVASCRIPT</p> 
+    <div class="container"> 
+        <div class="skill javascript">68%</div> 
+    </div> 
+    <p>C++</p> 
+    <div class="container"> 
+        <div class="skill cplus">95%</div> 
+    </div> 
+    <p>JAVA</p> 
+    <div class="container"> 
+        <div class="skill java">80%</div> 
+    </div> 
+    <p>PYTHON</p> 
+    <div class="container"> 
+        <div class="skill python">78%</div> 
+    </div> 
+            <script>
+                function skilltohome(){
+                      window.open("index.html")
+                }
+            </script>
+</body> 
+</html> 

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+             h1{
+                  color: whitesmoke;
+                  text-align: center;
+                  letter-spacing: 1px;
+                  font-size: 2.2em;
+                  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             }
+                     span{
+                    color: #0ef;
+               }
+                      body{
+                      background:rgba(0, 10, 16, 0.966);
+                 }
+                       .main{
+                      
+                      text-align: center;
+                      color: whitesmoke;
+                      padding: 8px;
+                      width: 85%;
+                      height: 60%;
+                      border: 2px solid whitesmoke;
+                      border-radius: 7px;
+                      margin-left: 85px;
+                      box-shadow: 3px 3px 3px 15px  #12343b;
+                      
+                 }
+                        input{
+                        width: 40%;
+                        padding: 6px;
+                        margin: 20px;
+                        border: 3px solid gray;
+                        border-radius: 18px;
+                        
+                      }
+                          #sa{
+                              float: right;
+                              box-shadow: 2px 2px 2px 2px rgb(148, 156, 171);
+                              margin-top: -70px;
+                          }
+                            button:hover{
+                              background-color:rgba(0, 255, 255, 0.208);
+                              cursor:pointer;
+                            }
+                           .hj{
+                           color: whitesmoke;
+                           font-size: larger;
+                       }
+                           textarea{
+                            margin-left: 40px;
+                            position:sticky;
+                            
+                          }
+                          .ho{
+                          width: 40%;
+                          margin-left: 180px; 
+                          }
+                          .hi{
+                              width: 40%;
+                              margin-left:530px;
+                              margin-top: -72px;
+                             }
+                          #hm{
+                               padding-left: 8px;
+                          }
+                           #hk{
+                               padding-left: 9px;
+                           }
+                           @media screen and (max-width:1024px){
+                            .ho{
+                                margin-left: 100px;
+                            }
+                              .hi{
+                                margin-left:460px;
+                              }
+                               #sa{
+                                 margin-top: -65px;
+                               }
+                        }
+                        @media screen and (max-width:780px){
+                               .hi{
+                                  margin-left: 400px;
+                               }
+                                .ho{
+                                     margin-left: 30px;
+                                }
+                        }
+                        @media screen and (max-width:440px){
+                               #hm{
+                                   display: none;
+                               } 
+                                .hi{
+                                    margin-left: auto;
+                                }
+                                .main{
+                                   width: auto;
+                                   height: auto;
+                                   margin-left: auto;
+                                   font-size:20px;
+                                }
+                                #sa{
+                                  margin-top: -25px;
+                                  font-size: 9px;
+                                  margin-right:185px;
+                                  
+                                }
+                        }
+                            @media screen and (max-width:375px){
+                              #sa{
+                                margin-top: -25px;
+                                font-size: 9px;
+                                margin-right:170px;
+                                
+                              }
+                        }
+                                @media screen and (max-width:330px){
+                                     .main{
+                                        font-size: 10px;
+                                     }
+                                      .ho{
+                                          width: 55%;
+                                      }
+                                       .hi{
+                                         width: 55%;
+                                       }
+                                       #sa{
+                                        margin-top: -22px;
+                                        margin-right:140px;
+                                        font-size: 9px;
+                                       }
+                                }
+                        
+                         
+    </style>
+</head>
+<body>
+           <form>  
+          <h1><span>C</span>ontact<span>Me</span></h1>
+          <button onclick="contacttoback()" id="sa">BACK</button>
+           <div class="main">
+               <div>
+                  <span class="hj">Name</span>: <input type="text" name="name">
+                </div>
+                  
+               <div>
+                   <span class="hj">Gmail</span>: <input type="email" name="gmail">
+                </div>
+                 
+                <div>
+                   <span class="hj">Address</span>:<input type="text" name="address">
+                </div>
+                <div>
+                    <span class="hj" id="hk">Contact Date</span>:<input type="date" name="date">
+                 </div>
+                 
+                   <div>
+                  <span class="hj" id="hm"> Write a Meassage for me:<br><textarea name="my text" cols="70" rows="10"></textarea></span>
+                 </div>
+                   <div class="ho">
+                    <input type="submit" name="my sumbmit">
+                   </div>
+                   <div class="hi">
+                    <input type="reset" name="my sumbmit">
+                  </div>
+    
+                  
+           </div>
+    </<form>
+               <script>
+                function contacttoback(){
+                    window.open("index.html")
+                }
+               </script>
+    
+</body>
+</html>
